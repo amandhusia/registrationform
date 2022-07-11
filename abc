@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+body{
+    background-image: url('bg.jpg');
+}
+#form{
+    background-color: #62ca62;
+   min-height: 700px;
+   padding: 5px 40px 40px 40px;
+   
+}
+.aman{
+    font-size: 55px;
+    font-family: Agency FB;
+    font-weight: 700;
+    border-bottom-style: ridge;;
+    
+
+}
+.text{
+    height: 25px;
+
+}
+label{
+    font-size: 18px;
+}
+
+
+    </style>
+    
+</head>
+<body>
+    
+   
+    <div class="container">
+<div class="row">
+    <div class="col-md-6 col-md-offset-6"   id="form"  >
+        <centre> <b class="aman" >  <center> Registation form</center></b></centre>
+        <form>
+<div class="form-group">
+<label><b>Username:</b></label>
+<input type="text" name="name" class="form-control text "placeholder="Enter Username ">
+
+</div>
+<br>
+<div class="form-group">
+    <label><b> Email ID  :   </b></label>
+    <input type="Email" name="Email" class="form-control text "placeholder="Enter Email ">
+    
+    </div><br>
+    <div class="form-group">
+        <label><b>Password:</b></label>
+        <input type="password" name="pass" class="form-control text "placeholder="Enter password ">
+        
+        </div><br>
+        <div class="form-group">
+            <label><b>Mobile no:</b></label>
+            <input type="text" name="mobile" class="form-control text "placeholder="Enter Mobile no ">
+            
+            </div><br>
+            <div class="form-group">
+                <label><b>Date of birth:  </b></label>
+                <input type="date" name="date of birth" class="form-control text "placeholder=" ">
+                
+                </div><br>
+                <div class="form-group">
+                    <label> <b> Select Gender:</b></label>
+                    <select>class="form control text">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+
+
+
+
+                    </select>
+                </div><br>
+           <div>
+            <div class="form-group">
+            <label><b>Address:</b></label>
+            <textarea class="form-control" rows="6" placeholder="Entre full Address"></textarea>
+
+
+
+
+            </div><br><br>
+          <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Submit">
+            <input type="reset" class="btn btn-danger" value="Reset">
+
+          </div>
+
+
+           </div>
+
+                </div>
+
+        </form>
+    </div>
+</div>
+
+
+
+    </div>
+</body>
+</html>
